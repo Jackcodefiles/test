@@ -1,0 +1,234 @@
+
+div#audio_visual_main_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+div#inner_visual_box {
+    position: relative;
+    width: 98%;
+    height: 98%;
+    display: grid;
+    background-color: #ffffff;
+    justify-items: center;
+    grid-template-rows: 3pc 25pc 5pc 4pc;
+}
+
+div#audio_conten_page {
+    position: relative;
+    display: grid;
+    width: 95%;
+    justify-items: center;
+    /* height: 67%; */
+    border-radius: 3px;
+    align-items: center;
+    /* background-color: #000000; */
+}
+
+div#audio_control_box {
+    position: relative;
+    /* height: 19%; */
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div#audio_profile {
+    z-index: 2;
+    position: relative;
+    width: 94%;
+    display: flex;
+    height: 98%;
+    background-color: #a2a2a2;
+    justify-content: center;
+    align-items: center;
+}
+
+div#lyrics_page {
+    position: absolute;
+    display: none;
+    width: 98%;
+    height: 98%;
+    background-color: rgb(255 255 255);
+}
+
+div#content_choise_icon {
+    width: 106%;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    /* height: 6%; */
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(255 255 255);
+}
+
+
+.audio_button_control1{
+
+background-color: #d8d8d8;
+
+padding: 3px 3pc;
+
+border-radius: 3px;
+}
+
+.audio_button_control0{
+
+    background-color: #ffffff;
+    padding: 4px 4pc;
+    border-radius: 3px;
+}
+
+
+
+div#audio_controlers {
+    position: relative;
+    width: 80%;
+    height: 51%;
+    display: flex;
+    align-items: center;
+    grid-gap: 2pc;
+    justify-content: center;
+    background-color: white;
+}
+
+div#left_ten_s {
+    width: 2pc;
+    height: 2pc;
+    /*background-color: black;*/    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#right_ten_s {
+    width: 2pc;
+    display: flex;
+    height: 2pc;
+    /* background-color: black; */
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+div#play_icon_audio {
+    position: relative;
+    height: 3pc;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    width: 3pc;
+    /* background-color: blue; */
+    color: white;
+}
+
+/*----------     audio   range  level           ------------*/
+
+
+div#audio_range_level {
+    position: relative;
+    width: 100%;
+    /* height: 6%; */
+    /* background-color: #e7e7e7; */
+    display: grid;
+    /* z-index: 2; */
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 80% 20%;
+    align-content: center;
+}
+
+div#audio_range_level p {
+    padding: 3px 5px;
+    width: 40%;
+    font-size: 14px;
+    text-align: center;
+    /* font-weight: 600; */
+    font-family: Open Sans;
+    background: #46464600;
+    color: black;
+}
+
+div#audio_range_level input[type="range"] {
+    -webkit-appearance: none !important;
+    width: 99%;
+    left: 2pc;
+    height: 2px;
+    position: relative;
+    background: black;
+    border: none;
+    outline: none;
+}
+
+div#audio_range_level input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 15px;
+    height: 15px;
+    background: black;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div#audio_range_level input[type="range"]::-webkit-slider-thumb:hover {
+    background: black;
+}
+
+/*-------  close button   */
+
+div#close {
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    z-index: 4;
+}
+button#close_icon {
+    width: 17pt;
+    height: 16pt;
+    background-color: #6d6d6d;
+    color: white;
+    outline: 0px;
+    border-radius: 4px;
+    border-width: 0px;
+}
+
+
+/**********  audio_content   ************/
+
+div#audio_profile img {
+    width: auto;
+    height: 14pc;
+}
+
+
+div#lyrics_page span {
+    overflow: overlay;
+    padding: 22px 20px;
+    text-align: center;
+    line-height: 1.5pc;
+    color: black;
+}
+
+div#play_icon_audio svg {
+    height: 48px;
+}
+svg#right_ten_s_icon {
+    width: 20px;
+    height: auto;
+    position: relative;
+}
+
+svg#left_ten_s_icon {
+    width: 20px;
+    height: auto;
+    position: relative;
+}
